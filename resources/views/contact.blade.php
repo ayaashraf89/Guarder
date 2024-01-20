@@ -90,6 +90,8 @@
                 <li class="nav-item active">
                   <a class="nav-link" href="contact.html">{{ __('messages.contactUs')}}</a>
                 </li>
+                <li><a href="{{ LaravelLocalization::getLocalizedURL('en') }}">English</a></li>
+                <li><a href="{{ LaravelLocalization::getLocalizedURL('ar') }}">عربي</a></li>
               </ul>
             </div>
           </nav>
